@@ -1,0 +1,19 @@
+.index__table {
+  margin: 16px 0;
+  width: 100%;
+  text-align: center;
+}
+.index__table .thead {
+  display: inline-block;
+  width: 10%;
+}
+.index__table .thead tr {
+  display: block;
+  height: 36px;
+}
+.index__table tbody tr:nth-child(2n-1) {
+  background: #eee;
+}
+.index__table tbody tr:hover {
+  background: #d4d4d4;
+}
